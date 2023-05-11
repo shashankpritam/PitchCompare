@@ -18,14 +18,14 @@ pip install librosa vosk
 ```
 Ensure your audio files are in WAV format. If not, you can convert them using FFMPEG:
 
-'''shell
+```shell
 
 ffmpeg -i input.mp3 -ac 1 -ar 16000 output.wav
 ```
 
 Run the Python script, providing the paths to your two audio files:
 
-'''shell
+```shell
 
 python pitch.py
 ```
